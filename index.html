@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>6lockBaby Gaming</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#090909;
+color:white;
+}
+
+header{
+background:linear-gradient(90deg,#5b00ff,#00c3ff);
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+header h1{
+font-size:35px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:bold;
+}
+
+.hero{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:url("https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+text-align:center;
+}
+
+.hero h2{
+font-size:70px;
+text-shadow:0 0 20px cyan;
+}
+
+.hero p{
+font-size:22px;
+margin:20px;
+}
+
+.hero button{
+padding:15px 40px;
+font-size:20px;
+background:#00d9ff;
+border:none;
+border-radius:40px;
+cursor:pointer;
+font-weight:bold;
+transition:.4s;
+}
+
+.hero button:hover{
+transform:scale(1.1);
+box-shadow:0 0 30px cyan;
+}
+
+.games{
+padding:70px;
+}
+
+.games h2{
+text-align:center;
+font-size:45px;
+margin-bottom:40px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:#181818;
+border-radius:20px;
+overflow:hidden;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px cyan;
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+}
+
+.card p{
+padding:0 15px 20px;
+color:#ccc;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:80px;
+padding:60px;
+background:#111;
+flex-wrap:wrap;
+}
+
+.stat{
+text-align:center;
+}
+
+.stat h1{
+font-size:60px;
+color:cyan;
+}
+
+.owner{
+padding:80px;
+text-align:center;
+}
+
+.owner img{
+width:170px;
+border-radius:50%;
+border:5px solid cyan;
+}
+
+.owner h2{
+margin-top:20px;
+font-size:40px;
+}
+
+footer{
+padding:30px;
+text-align:center;
+background:#000;
+}
+
+.discord{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#5865F2;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🎮 6lockBaby</h1>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Games</a>
+<a href="#">About</a>
+<a href="#">Discord</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h2>WELCOME GAMERS</h2>
+
+<p>The Home Of Gaming</p>
+
+<button>Start Playing</button>
+
+</section>
+
+<section class="games">
+
+<h2>🔥 Popular Games</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=900&q=80">
+
+<h3>Fortnite</h3>
+
+<p>Battle Royale with millions of players.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=900&q=80">
+
+<h3>Minecraft</h3>
+
+<p>Build anything you can imagine.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80">
+
+<h3>Roblox</h3>
+
+<p>Create and play millions of games.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=80">
+
+<h3>Valorant</h3>
+
+<p>Competitive 5v5 tactical shooter.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1560253023-3ec5d502959f?auto=format&fit=crop&w=900&q=80">
+
+<h3>Rocket League</h3>
+
+<p>Cars + Soccer = Fun.</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=900&q=80">
+
+<h3>Call of Duty</h3>
+
+<p>Fast paced FPS action.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats">
+
+<div class="stat">
+<h1>500+</h1>
+<p>Games</p>
+</div>
+
+<div class="stat">
+<h1>50K</h1>
+<p>Players</p>
+</div>
+
+<div class="stat">
+<h1>24/7</h1>
+<p>Online</p>
+</div>
+
+</section>
+
+<section class="owner">
+
+<img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+
+<h2>Owner: 6lockBaby</h2>
+
+<p>Gaming Community • Roblox • Minecraft • Fortnite • FPS Games</p>
+
+<a class="discord" href="#">Join Discord</a>
+
+</section>
+
+<footer>
+
+© 2026 6lockBaby Gaming | All Rights Reserved
+
+</footer>
+
+</body>
+</html>
